@@ -13,38 +13,89 @@ function promptUser() {
     },
     {
       type: "input",
-      name: "location",
-      message: "Where are you from?"
+      name: "description",
+      message: "What is the description of your project?"
     },
     {
       type: "input",
-      name: "hobby",
-      message: "What is your favorite hobby?"
+      name: "contents",
+      message: "List out your table of contents"
     },
     {
       type: "input",
-      name: "food",
-      message: "What is your favorite food?"
+      name: "install",
+      message: "What is the installation instructions?"
     },
     {
       type: "input",
-      name: "github",
-      message: "Enter your GitHub Username"
+      name: "use",
+      message: "How is this project used?"
     },
     {
       type: "input",
-      name: "linkedin",
-      message: "Enter your LinkedIn URL."
-    }
+      name: "license",
+      message: "Which type of license would you like to use?"
+    },
+    {
+      type: "input",
+      name: "contributions",
+      message: "Please list any contributions made to the project."
+    },
+    {
+      type: "input",
+      name: "tests",
+      message: "What is the test instructions for the project?"
+    },
+    {
+      type: "input",
+      name: "questions",
+      message: "Please enter your GitHub username."
+    },
+    {
+      type: "input",
+      name: "email",
+      message: "Please enter your contact Email?"
+    },
   ]);
 }
 
 function generateREAD(answers) {
   return `
   ## ${answers.title}
-    I am from ${answers.location}.
-    My GitHub username is ${answers.github}
-    LinkedIn URL ${answers.linkedin}
+
+  ## Description 
+
+  ${answers.description}
+  
+  ## Table of Contents 
+  
+  ${answers.contents}.
+  
+  ## Installation 
+  
+  ${answers.install}
+
+  ## Usage 
+  
+  ${answers.use}
+
+  ## License 
+  
+  ${answers.license}
+
+  ## Contributing 
+  
+  ${answers.contributions}
+  
+  ## Tests 
+  
+  ${answers.test}
+
+  ## Questions 
+  
+  ${answers.questions}
+  
+  Please Contact me at ${answers.email}
 `;
 }
 
