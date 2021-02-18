@@ -17,9 +17,19 @@ function promptUser() {
       message: "What is the description of your project?"
     },
     {
-      type: "input",
+      type: "checkbox",
+      message: "List out your table of contents",
       name: "contents",
-      message: "List out your table of contents"
+      choices: [
+        "Title",
+        "Description",
+        "Installation",
+        "Use",
+        "License",
+        "Contributions",
+        "Tests",
+        "Questions",
+      ]
     },
     {
       type: "input",
@@ -32,9 +42,15 @@ function promptUser() {
       message: "How is this project used?"
     },
     {
-      type: "input",
+      type: "list",
+      message: "Which type of license would you like to use?",
       name: "license",
-      message: "Which type of license would you like to use?"
+      choices: [
+        "Apache License 2.0", 
+        "MIT License", 
+        "Boost Software License 1.0", 
+        "Eclipse Public License 2.0"
+      ]
     },
     {
       type: "input",
@@ -69,7 +85,7 @@ function generateREAD(answers) {
   
   ## Table of Contents 
   
-  ${answers.contents}.
+  ${answers.contents}
   
   ## Installation 
   

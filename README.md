@@ -1,29 +1,29 @@
 
-  ## fish face
+  ## readme 
 
   ## Description 
 
-  my project finds new homes for fish
+  create a readme 
   
   ## Table of Contents 
   
-  Free willy, Nemo, cleo, Dory, sebasitain.
+  Title,Description,Installation,Use,License,Contributions,Tests,Questions.
   
   ## Installation 
   
-  input directly into water.
+  instal npm
 
   ## Usage 
   
-  across all theme parks
+  generate a readme 
 
   ## License 
   
-  MIT
+  MIT License
 
   ## Contributing 
   
-  Found all the homes
+  Google
   
   ## Tests 
   
@@ -31,6 +31,6 @@
 
   ## Questions 
   
-  NEMO
+  anthonyd 
   
-  Please Contact me at ellie@gmail.com
+  Please Contact me at ando@gmail.com
