@@ -122,7 +122,7 @@ async function init() {
 
     const read = generateREAD(answers);
 
-    await writeFileAsync("README.md", read);
+    await writeFileAsync("output/README.md", read);
 
     console.log("Successfully wrote to README.md");
   } catch(err) {
