@@ -40,6 +40,13 @@ This assignment taught me a lot about designing webpages and writing files using
 
 The assignment taught me things that I have never had to think about before about web development meaning writing and executing code completely in the terminal using back end web development. This assignment showed me licensing which is something we have never done before in any of our repositories. I had to utilize Google for that in order to fully understand what to put in the licensing and how it is used in the project. A big takeaway for me was the npm library and its many capabilities so much can be done with this resource. For example this entire assignment is based, built, and executed utilizing the npm library. I was able to practice with different inputs for the questions like checkboxes, lists, and editor. Not sure how to fully utilize the last one I tried it but then could never escape the actual editor to add it to the file so I didn't use that function but it was good to have experimented with it. This was a great assignment it was challenging in some ways but also a great learning experience that taught me a lot back end web development. 
 
+# Screenshots 
+
+<img width="1440" alt="Screen Shot 2021-02-20 at 10 05 56 PM" src="https://user-images.githubusercontent.com/73844796/108614503-156cba80-73c9-11eb-9e63-b4d44f0bc305.png">
+
+<img width="1440" alt="Screen Shot 2021-02-20 at 10 14 28 PM" src="https://user-images.githubusercontent.com/73844796/108614528-4c42d080-73c9-11eb-903d-c4c4361c5470.png">
+
+
 # Video Walk-through Link:
 
 https://drive.google.com/file/d/1fkYGdIk0s7wuHYA-YmFZJAi9SxQrhLlE/view

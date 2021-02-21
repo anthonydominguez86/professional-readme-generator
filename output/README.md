@@ -1,27 +1,27 @@
 
-  # README Generator
+  # Readme Generator 
 
   ## Description 
 
-  To generate a README.md file.
+  To create a professional readme based on prompts
   
   ## Table of Contents 
   
-  Title,Description,Installation,Use,License,Contributions,Tests,Questions
+  Description
   
   ## Installation 
   
-  npm install -y npm install inquirer 
+  npm init -y npm install require inquirer require fs 
 
   ## Usage 
   
-  To generate a README.md file 
+  By asking questions that will be generate a Readme file with corresponding sections and genrating a readme.md
 
   ## License 
   
   MIT License
 
-  Copyright (c) 2021 Anthony Dominguez  
+  Copyright (c) 2021 Anthony Dominguez 
 
   Permission is hereby granted, free of charge, to any person obtaining a copy
   of this software and associated documentation files (the "Software"), to deal
@@ -43,11 +43,11 @@
 
   ## Contributing 
   
-  Google, npm library and inquirer.
+  Google, npm, inquirer, etc
   
   ## Tests 
   
-  Test and restesting.
+  test test test test test and retest
 
   ## Questions 
   
