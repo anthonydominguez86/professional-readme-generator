@@ -1,21 +1,21 @@
 
-  # Readme Generator 
+  # Readme Maker 
 
   ## Description 
 
-  To create a professional readme based on prompts
+  To make a readme file for projects.
   
   ## Table of Contents 
   
-  Description
+  License
   
   ## Installation 
   
-  npm init -y npm install require inquirer require fs 
+  Node index.js
 
   ## Usage 
   
-  By asking questions that will be generate a Readme file with corresponding sections and genrating a readme.md
+  To make a markdoen file.
 
   ## License 
   
@@ -43,16 +43,16 @@
 
   ## Contributing 
   
-  Google, npm, inquirer, etc
+  Internet
   
   ## Tests 
   
-  test test test test test and retest
+  test test retest 
 
   ## Questions 
   
   If you have any questions or need any further assistance please see contact information below.
 
-  My GitHub Username: https://github.com/anthonydominguez86
+  My GitHub Username: https://github.com/anthonydominguez
   
-  My Contact Email: adominguez11186@gmail.com
+  My Contact Email: mail@mail.com
